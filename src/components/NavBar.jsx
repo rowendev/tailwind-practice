@@ -20,7 +20,7 @@ function NavBar() {
         <li className="p-4 hover:underline">Contact</li>
       </ul>
 
-      <div onClick={handleNav} className="block md:hidden">
+      <div onClick={handleNav} className="block md:hidden cursor-pointer">
         {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
       </div>
 
